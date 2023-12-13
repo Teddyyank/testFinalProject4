@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0014f4d0-fe4c-4014-9872-3f4412255f6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/testng/maven/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLogout.java" afterDir="false" />
+    <list default="true" id="0014f4d0-fe4c-4014-9872-3f4412255f6d" name="Changes" comment="Test Login is working, Test Logout is strted">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestChangePublicInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCommentOnAPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +41,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Teodora.Yankova/IdeaProjects/testFinalProject4",
+    "last_opened_file_path": "C:/Users/Teodora.Yankova/IdeaProjects/automation",
     "onboarding.tips.debug.path": "C:/Users/Teodora.Yankova/IdeaProjects/testFinalProject4/src/main/java/org/testng/maven/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestLogin">
+  <component name="RunManager" selected="TestNG.TestLogout.testLogout">
+    <configuration name="TestCommentOnAPost.testCommentOnAPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testFinalProject4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCommentOnAPost" />
+      <option name="METHOD_NAME" value="testCommentOnAPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testFinalProject4" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,10 +93,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLogout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testFinalProject4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLogout" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogout.testLogout" type="TestNG" nameIsGenerated="true">
+      <module name="testFinalProject4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLogout" />
+      <option name="METHOD_NAME" value="testLogout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestLogin" />
+        <item itemvalue="TestNG.TestCommentOnAPost.testCommentOnAPost" />
+        <item itemvalue="TestNG.TestLogout" />
         <item itemvalue="TestNG.TestLogin.testLogout" />
+        <item itemvalue="TestNG.TestLogin" />
         <item itemvalue="TestNG.TestLogin.testLogin" />
       </list>
     </recent_temporary>
@@ -103,6 +135,22 @@
       <option name="presentableId" value="Default" />
       <updated>1702391844950</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test Login is working, Test Logout is next">
+      <option name="closed" value="true" />
+      <created>1702417279424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702417279424</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Login is working, Test Logout is next" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Login is working, Test Logout is next" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testFinalProject4$TestLogout_testLogout.ic" NAME="TestLogout.testLogout Coverage Results" MODIFIED="1702420424699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
