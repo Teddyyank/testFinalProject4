@@ -1,5 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
@@ -8,6 +10,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
+import java.io.File;
 import java.time.Duration;
 
 public class TestBase {
@@ -40,9 +43,12 @@ public class TestBase {
 //        }
 //    }
 
+
     @DataProvider(name = "loginData")
     public Object[][] loginData() {
-        return new Object[][]{{"Teddy123", "test123",},};
+        File uplPic = new File("src\\main\\resources\\upload\\pexels-reynaldo-brigworkz-brigantty-747101.jpg");
+        String postCaption = "Image description";
+        return new Object[][]{{"Teddy123", "test123", uplPic, postCaption},};
     }
 
 

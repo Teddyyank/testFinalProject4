@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0014f4d0-fe4c-4014-9872-3f4412255f6d" name="Changes" comment="Test Login is working, Test Logout is strted">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PostPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload/pexels-reynaldo-brigworkz-brigantty-747101.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestChangePublicInfo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestCommentOnAPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNewPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Teodora.Yankova/IdeaProjects/automation",
-    "onboarding.tips.debug.path": "C:/Users/Teodora.Yankova/IdeaProjects/testFinalProject4/src/main/java/org/testng/maven/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Teodora.Yankova/IdeaProjects/automation&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Teodora.Yankova/IdeaProjects/testFinalProject4/src/main/java/org/testng/maven/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.TestLogout.testLogout">
+}</component>
+  <component name="RunManager" selected="TestNG.TestNewPost.testLogout">
     <configuration name="TestCommentOnAPost.testCommentOnAPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testFinalProject4" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,18 +65,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLogin" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLogin.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testFinalProject4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLogin" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -116,13 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNewPost.testLogout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testFinalProject4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNewPost" />
+      <option name="METHOD_NAME" value="testLogout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNewPost.testLogout" />
         <item itemvalue="TestNG.TestCommentOnAPost.testCommentOnAPost" />
         <item itemvalue="TestNG.TestLogout" />
         <item itemvalue="TestNG.TestLogin.testLogout" />
         <item itemvalue="TestNG.TestLogin" />
-        <item itemvalue="TestNG.TestLogin.testLogin" />
       </list>
     </recent_temporary>
   </component>

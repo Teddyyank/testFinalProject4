@@ -16,13 +16,12 @@ public class Header {
     private final WebDriver driver;
 
     @FindBy(id = "nav-link-profile")
-    private WebElement profileLink;
+    private static WebElement profileLink;
 
     @FindBy(id = "nav-link-new-post")
-    private WebElement newPostLink;
+    private WebElement newPostButton;
 
-    //logout element
-    @FindBy(css = "fas fa-sign-out-alt fa-lg")
+    @FindBy(xpath = "//*[@class='fas fa-sign-out-alt fa-lg']")
     private static WebElement logoutButton;
 
 
@@ -31,20 +30,25 @@ public class Header {
         PageFactory.initElements(driver, this);
     }
 
-
-    public static void logout(WebDriver driver) {
+    public void isLogoutButtonLoaded() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
+    }
+
+    public void clickNewPost() { newPostButton.click();}
+
+    public static void clickLogout() {
         logoutButton.click();
     }
 
+    public static void clickOnProfile() {
+        profileLink.click();
+    }
 
     public boolean isUserLoggedOut() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         return wait.until(ExpectedConditions.urlToBe(LOGOUT_URL));
     }
-
-
 
 
 }
